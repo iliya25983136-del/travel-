@@ -1,0 +1,16 @@
+:root {
+  --color-primary-yellow: #ffc700;
+  --color-primary-white: #f5fffe;
+  --color-primary: #41d6c7;
+  --color-light-blue: #cbe7e4;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-light-gray: #f4f4f4;
+  --color-dark-gray: #565656;
+  --font-family-primary: "Circular Std", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

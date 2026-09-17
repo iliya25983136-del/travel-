@@ -3,26 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TRAVEL</title>
+    <title>My Travel Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a href="#">
-        <img src="assets/image/relocate.png" alt="Relocate logo" />
-        <nav>
-          <ul>
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">Deals</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><button type="button">☰</button></li>
-          </ul>
-        </nav>
+    <header class="site-header">
+      <a href="index.html" class="logo">
+        <img src="assets/image/relocate.png" alt="Relocate Logo" />
       </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href=""></a>Destinations</li>
+          <li><a href="">Deals</a></li>
+          <li><a href="">Explore</a></li>
+          <li><a href="">Resources</a></li>
+          <li>
+            <button type="button" class="menu-btn" aria-label="Open menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section></section>
+      <section class="hero">
+        <img src="assets/image/hero.jpg" alt="Travel Hero Image" />
+      </section>
     </main>
-    <footer></footer>
   </body>
 </html>
