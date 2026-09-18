@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Travel Blog</title>
+    <title>Relocate - Find Your Next Destination</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,28 +17,240 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
+    <!-- HEADER -->
+    <header class="main-header">
       <a href="index.html" class="logo">
-        <img src="assets/image/relocate.png" alt="Relocate Logo" />
+        <img src="assets/icons/relocate.png" alt="Relocate Logo" />
       </a>
-      <nav class="main-nav" aria-label="Main navigation">
+      <nav class="nav-links" aria-label="Main navigation">
         <ul>
-          <li><a href=""></a>Destinations</li>
-          <li><a href="">Deals</a></li>
-          <li><a href="">Explore</a></li>
-          <li><a href="">Resources</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#deals">Deals</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#resources">Resources</a></li>
           <li>
             <button type="button" class="menu-btn" aria-label="Open menu">
-              <i class="fa-solid fa-bars"></i>
+              <span class="menu-icon">≡</span>
             </button>
           </li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section class="hero">
-        <img src="assets/image/hero.jpg" alt="Travel Hero Image" />
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-title-script">make the right</span>
+            <span class="hero-title-bold">move.</span>
+          </h1>
+        </div>
+        <div class="explore-btn">
+          <a href="#top-destinations" class="explore-more">
+            <img src="assets/icons/bottom-arrow.png" alt="Explore" />
+            <span>EXPLORE DESTINATIONS</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- TOP DESTINATIONS -->
+      <section class="destinations-section" id="top-destinations">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              <img
+                src="assets/images/top.svg"
+                alt="top"
+                class="title-script-img"
+              />
+              <span class="title-bold">destinations</span>
+            </h2>
+            <div class="pill-divider"></div>
+            <p class="section-desc">
+              It's hard enough deciding to move, you don't have to worry about
+              where to move to. These are some of the most popular and best
+              locations to move to based on a number of factors.
+            </p>
+          </div>
+
+          <!-- 4 Column Cards Grid -->
+          <div class="grid-4-cols">
+            <article class="card">
+              <img
+                src="assets/images/paraty.png"
+                alt="Paraty"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Paraty</h3>
+                <p>RIO DE JANEIRO</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="assets/images/morretes.png"
+                alt="Morretes"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Morretes</h3>
+                <p>PARANÁ</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="assets/images/olinda.png"
+                alt="Olinda"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Olinda</h3>
+                <p>PERNAMBUCO</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="assets/images/gramado.png"
+                alt="Gramado"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Gramado</h3>
+                <p>RIO GRANDE DO SUL</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- MORE DESTINATIONS -->
+      <section class="destinations-section" id="more-destinations">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              <img
+                src="assets/images/more.svg"
+                alt="more"
+                class="title-script-img"
+              />
+              <span class="title-bold">destinations</span>
+            </h2>
+            <div class="pill-divider"></div>
+            <p class="section-desc">
+              Your peace of mind doesn't have to be tied to where everyone else
+              is. We have a good number of travel and relocation destinations.
+              Take your time and find the perfect one for you.
+            </p>
+          </div>
+
+          <!-- Bento Grid Layout -->
+          <div class="bento-grid">
+            <article class="card card-tall">
+              <img
+                src="assets/images/Estaing.png"
+                alt="Estaing"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Estaing</h3>
+                <p>FRANCE</p>
+              </div>
+            </article>
+
+            <article class="card card-medium-1">
+              <img
+                src="assets/images/Vik.png"
+                alt="Vík í Mýrda"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Vík í Mýrda</h3>
+                <p>ICELAND</p>
+              </div>
+            </article>
+
+            <article class="card card-medium-2">
+              <img
+                src="assets/images/Hamnoy.png"
+                alt="Hamnoy"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Hamnoy village</h3>
+                <p>NORWAY</p>
+              </div>
+            </article>
+
+            <article class="card card-wide">
+              <img
+                src="assets/images/Montego.png"
+                alt="Montego Bay"
+                class="card-img"
+              />
+              <div class="card-content">
+                <h3>Montego Bay</h3>
+                <p>JAMAICA</p>
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="footer-wave"></div>
+      <div class="container footer-container">
+        <div class="footer-col">
+          <h4>LEGAL</h4>
+          <ul>
+            <li><a href="#">MSA Self Managed</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Guidelines for Law Enforcement</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Manage Cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>PRODUCT</h4>
+          <ul>
+            <li><a href="#">Why move?</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Omnichannel</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Marketplace</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col social-col">
+          <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+          <a href="#"
+            ><img src="assets/icons/instagram 1.svg" alt="Instagram"
+          /></a>
+          <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn" /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
